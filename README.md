@@ -1,2 +1,3 @@
 # Hanjie's Personal website
-used html and css; with help from bootstrap
+Coded with HTML and CSS script;
+Imformation gathered from Codecademy, W3school, cssgradient.io and https://freefrontend.com/
