@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hanjie Jiang | Personal Website</title>
-    <meta name="title" content="Hanjie Jiang">
+    <meta name="author" content="Hanjie Jiang">
     <meta name="description" content="Hanjie's personal website">
     <meta property="og:site_name" content="Hanjie's Personal Website">
     <meta property="og:type" content="website">
@@ -14,42 +14,52 @@
     <meta property="og:title" content="Hanjie's Personal Website">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">  
+    <link rel="stylesheet" href="./css/title.css" type="text/css">
+    <link rel="stylesheet" href="./css/navbar.css" type="text/css">
 
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
-
-  <style>  
-  .container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .centered {
-    font-size: 2.5vw;
-    font-family: "Mulish", sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  </style>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish"
+     type="text/css">
+    <link rel="icon" href="/static/favicon.ico">
   </head>
 
   <body>
-  <div class="container">
-  	<meta property ="name" content="Header Background">
-  	<meta property="thumbnail" content="cool-background.png">
-    <img src="cool-background.png" alt="Header Background" style="width:100%;"/>
-    <div class="centered"> Hanjie Jiang | Personal Website </div>
-  </div>
+    <!-- Website Title -->
+    <header id = "header">
+
+      <!-- First container -->
+      <div class="container container_solid">
+        <div class="title_wrapper">
+          <h1>Hanjie Jiang | Personal Website</h1>
+          <p>Graduate Student at the University of Michigan</p>
+        </div>
+      </div>
+
+      <!-- Second container -->
+      <div class="container container_background" aria-hidden="true">
+        <div class="title_wrapper">
+          <h1>Hanjie Jiang | Personal Website</h1>
+          <p>Graduate Student at the University of Michigan</p>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- Navigation object navbar -->
+    <nav class="navbar">
+    <ul class="navbar-list center">
+        <li class="navbar-item">
+          <a class="active" href="https://hanjie-jiang.github.io/">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="https://hanjie-jiang.github.io/resume/">About Me</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="https://hanjie-jiang.github.io/resume/">Contact</a>
+        </li>
+    </ul>
+  </nav>
+
   </body>
 
 </html>

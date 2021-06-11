@@ -1,0 +1,133 @@
+/* Based on https://codepen.io/argyleink/pen/wvMxEXM
+        and https://www.w3schools.com/colors/tryit.asp?filename=trycolors_hsl
+        and https://cssgradient.io/
+        and https://codepen.io/blakeeric/pen/MWwGpmR
+*/
+header {
+  height: 200vh;
+}
+div.container {
+  /* hide fixed overflow contents */
+  clip: rect(0, auto, auto, 0);
+  /* does not work if overflow = visible */
+  overflow: hidden;
+  /* only works with absolute positioning */
+  position: absolute;
+  /* Make sure containers are full-width and height */
+  height: 100vh;
+  left: 0;
+  width: 100%;
+  /* safari hack */
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+}
+.container_solid {
+  background: white;
+  /* position this container at the top of its parent element */
+  top: 0;
+}
+/*Covering the first layer of the title*/
+.title_wrapper {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.title_wrapper h1 {
+  text-align: center;
+  font-size: 46px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+}
+.title_wrapper p {
+  text-align: center;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+}
+.container_solid .title_wrapper {
+  /* the text background */
+  background: radial-gradient(
+    /*Blue tuned
+    hsl(205, 59%, 34%),
+    hsl(200 100% 60%)
+    */
+    /*Original from the website
+    hsl(100 100% 60%),
+    hsl(200 100% 60%)
+    */
+    circle,
+    rgba(0,164,255,1) 0%,
+    rgba(0,68,149,1) 45%,
+    rgba(4,12,38,1) 100%
+    ) fixed;
+  background: conic-gradient(
+    /*Blue tuned
+    hsl(205, 59%, 34%),
+    hsl(200 100% 60%),
+    hsl(205, 59%, 34%)
+    */
+    /*Original from the website
+    hsl(100 100% 60%),
+    hsl(200 100% 60%),
+    hsl(100 100% 60%)
+    */
+    circle,
+    rgba(0,164,255,1) 0%,
+    rgba(0,68,149,1) 45%,
+    rgba(4,12,38,1) 100%
+  ) fixed;
+  background-size: 100vw auto;
+  background-position: center;
+
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* fallback text color */
+  color: white;
+}
+.container_background {
+  /* background for the 2nd layer */
+  background: radial-gradient(
+    /*
+    hsl(205, 59%, 34%),
+    hsl(200 100% 60%)
+    */
+    circle,
+    rgba(0,164,255,1) 0%,
+    rgba(0,68,149,1) 45%,
+    rgba(4,12,38,1) 100%
+  ) fixed;
+  background: conic-gradient(
+    /*
+    hsl(205, 59%, 34%),
+    hsl(200 100% 60%),
+    hsl(205, 59%, 34%)
+    */
+    circle,
+    rgba(0,164,255,1) 0%,
+    rgba(0,68,149,1) 45%,
+    rgba(4,12,38,1) 100%
+  ) fixed;
+  background-size:120vw auto;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* position the second container below the first container */
+  top: 120vh;
+}
+.container_background .title_wrapper {
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
