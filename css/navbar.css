@@ -9,7 +9,7 @@ ul {
   background-color: white;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 0 px;
 }
 
 li {
@@ -21,7 +21,8 @@ li a {
   display: inline-block;
   color: #093160;
   text-align: center;
-  padding:20px 50px;
+  float:none;
+  padding:25px 50px;
   text-decoration: none;
   font-size: 18px;
   font-family: "Mulish", sans-serif;

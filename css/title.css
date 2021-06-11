@@ -118,12 +118,12 @@ div.container {
     rgba(0,68,149,1) 45%,
     rgba(4,12,38,1) 100%
   ) fixed;
-  background-size:120vw auto;
+  background-size:100vw auto;
   background-position: center;
   background-attachment: fixed;
 
   /* position the second container below the first container */
-  top: 120vh;
+  top: 100vh;
 }
 .container_background .title_wrapper {
   color: white;
