@@ -37,3 +37,36 @@ section p {
   margin-left: auto;
   margin-right: auto;
 }
+
+body {
+  margin: 0;
+}
+
+/* Navigation Bar at the bottom of contact page*/
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+section a {
+  display: inline-block;
+  color: #093160;
+  text-align: center;
+  padding:25px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: #72b8f4;
+}
+
+.active {
+  background-color: #b7dbfc;
+}
