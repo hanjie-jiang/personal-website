@@ -1,8 +1,8 @@
 section {
   text-align: center;
   min-height: 90px;
-  margin-top: 120px;
-  height: 60px; /* defines how much the content can be scrolled*/
+  margin-top:150px; /* controls the block size above each section*/
+  height: 180px; /* defines how much the content can be scrolled*/
 }
 
 section h2 {
@@ -33,7 +33,7 @@ section p {
   color: #3b536f;
   max-width: 600px;
   min-width: 100px;
-  text-align: justify;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
