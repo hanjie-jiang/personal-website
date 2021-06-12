@@ -2,7 +2,7 @@ section {
   text-align: center;
   min-height: 90px;
   margin-top: 120px;
-  height: 60px; /* defines how much the content can be scrolled*/
+  height: 120px; /* defines how much the content can be scrolled*/
 }
 
 section h2 {
