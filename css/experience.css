@@ -1,8 +1,8 @@
 section {
   text-align: center;
   min-height: 90px;
-  margin-top:150px; /* controls the block size above each section*/
-  height: 200px; /* defines how much the content can be scrolled*/
+  margin-top: 120px;
+  height: 120px; /* defines how much the content can be scrolled*/
 }
 
 section h2 {
@@ -10,7 +10,6 @@ section h2 {
   font-family: 'Mulish', sans-serif;
   font-size: 32px;
   line-height: 3em;
-  z-index:9999999;
 }
 
 h2:after{
@@ -37,10 +36,6 @@ section p {
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
-}
-
-body {
-  margin: 0;
 }
 
 /* Navigation Bar at the bottom of contact page*/
