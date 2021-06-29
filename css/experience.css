@@ -58,6 +58,10 @@ ul {
   line-height: 1.6;
 }
 
+.link-website{
+  color: #6aa0cd;
+}
+
 /* Navigation Bar at the bottom of contact page*/
 .navbar {
   border-width:1px 0;
@@ -78,7 +82,7 @@ ul {
   min-width: 200px;
 }
 
-section a {
+.navlist, .active {
   display: inline-block;
   color: #093160;
   text-align: center;
@@ -89,7 +93,7 @@ section a {
   font-weight: 600;
 }
 
-a:hover {
+.navlist a:hover {
   background-color: #72b8f4;
 }
 

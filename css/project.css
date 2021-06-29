@@ -32,15 +32,28 @@ h2:after{
   width: 100%;
 }
 
-ul {
+.tech-list, .soft-list, .project-list, .publication-item {
   font-size: 18px;
   font-family: sans-serif;
   line-height: 1.6;
+  color: #3b536f;
+  width: 60%;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+  min-width: 150px;
 }
 
-.awards-tests, .courses {
-  text-align: justify;
-  line-height: 1.6;
+.project-sublist {
+    line-height: 1.6;
+}
+.link-website{
+  color: #6aa0cd;
+}
+
+.pub-link{
+  color: #5e9585;
 }
 
 /* Navigation Bar at the bottom of contact page*/
@@ -63,7 +76,7 @@ ul {
   min-width: 200px;
 }
 
-section a {
+.navlist, .active {
   display: inline-block;
   color: #093160;
   text-align: center;
@@ -74,7 +87,7 @@ section a {
   font-weight: 600;
 }
 
-a:hover {
+.navlist a:hover {
   background-color: #72b8f4;
 }
 
