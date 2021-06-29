@@ -1,15 +1,20 @@
 section {
-  text-align: center;
   min-height: 90px;
   margin-top: 120px;
-  height: 120px; /* defines how much the content can be scrolled*/
+  /*height: 120px; /* defines how much the content can be scrolled*/
 }
 
-section h2 {
+h2 {
   color: #093160;
   font-family: 'Mulish', sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 3em;
+  font-size: 32px;
+  max-width: 600px;
+  min-width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2:after{
@@ -24,28 +29,47 @@ h2:after{
   -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
-section p {
-  font-family: 'Mulish', sans-serif;
-  font-size: 20px;
+.job {
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  width: 75%;
+  margin: auto;
+  border-bottom: 1px solid #637891;
   color: #3b536f;
-  max-width: 600px;
-  min-width: 100px;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.job h3 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+}
+
+ul {
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 /* Navigation Bar at the bottom of contact page*/
 .navbar {
+  border-width:1px 0;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  text-align:center;
   overflow: hidden;
   background-color: white;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
-  bottom: 0;
-  width: 100%;
-  height: auto;
+  top: 0;
+  /*width: 100%;*/
+  height: 100px;
+  z-index: 1;
+  max-width: 100%;
+  min-width: 200px;
 }
 
 section a {
