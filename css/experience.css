@@ -50,6 +50,12 @@ h2:after{
 ul {
   font-size: 18px;
   font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.awards-tests, .courses {
+  text-align: justify;
+  line-height: 1.6;
 }
 
 /* Navigation Bar at the bottom of contact page*/
