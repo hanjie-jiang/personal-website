@@ -94,3 +94,8 @@ h2:after{
 .active {
   background-color: #b7dbfc;
 }
+
+.project-description {
+  text-align: justify;
+  line-height: 1.6;
+}
