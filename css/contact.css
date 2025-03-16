@@ -6,7 +6,7 @@ section {
 }
 
 section h2 {
-  color: #093160;
+  color: #400960;
   font-family: 'Mulish', sans-serif;
   font-size: 32px;
   line-height: 3em;
@@ -16,7 +16,7 @@ section h2 {
 h2:after{
   content:' ';
   display:block;
-  border:1px solid #637891;
+  border:1px solid #7f6391;
   border-radius:4px;
   -webkit-border-radius:2px;
   -moz-border-radius:4px;
@@ -31,7 +31,7 @@ h2:after{
 section p {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
-  color: #3b536f;
+  color: #5a3b6f;
   max-width: 600px;
   min-width: 100px;
   text-align: justify;
@@ -55,7 +55,7 @@ body {
 
 section a {
   display: inline-block;
-  color: #093160;
+  color: #3f0960;
   text-align: center;
   padding:25px 50px;
   text-decoration: none;
@@ -65,11 +65,11 @@ section a {
 }
 
 a:hover {
-  background-color: #72b8f4;
+  background-color: #d2c5ed;
 }
 
 .active {
-  background-color: #b7dbfc;
+  background-color: #cac2d9;
 }
 
 .scholar {
@@ -84,4 +84,50 @@ a:hover {
 /* Add specific styling for the first section if needed */
 .content-contact {
   margin-top: 100px;  /* Slightly larger margin for the first section */
+}
+
+.navlist, .active {
+  display: inline-block;
+  color: #2E1A47;  /* darker purple for text */
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+}
+
+.navlist a:hover {
+  background-color: #B19CD9;  /* light purple for hover */
+}
+
+.active {
+  background-color: #c8b5ee;  /* medium purple for active state */
+}
+
+.dropbtn {
+  display: inline-block;
+  color: #2E1A47;  /* darker purple for text */
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.dropdown-content a {
+  color: #391a47;  /* darker purple for text */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  background-color: #B19CD9;  /* light purple for hover */
 }

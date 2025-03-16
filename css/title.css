@@ -54,34 +54,16 @@ div.container {
 .container_solid .title_wrapper {
   /* the text background */
   background: radial-gradient(
-    /*Blue tuned
-    hsl(205, 59%, 34%),
-    hsl(200 100% 60%)
-    */
-    /*Original from the website
-    hsl(100 100% 60%),
-    hsl(200 100% 60%)
-    */
     circle,
-    rgba(0,164,255,1) 0%,
-    rgba(0,68,149,1) 45%,
-    rgba(4,12,38,1) 100%
-    ) fixed;
+    rgba(147,112,219,1) 0%,    /* Light purple */
+    rgba(72,61,139,1) 45%,     /* Dark purple */
+    rgba(25,25,112,1) 100%     /* Midnight blue */
+  ) fixed;
   background: conic-gradient(
-    /*Blue tuned
-    hsl(205, 59%, 34%),
-    hsl(200 100% 60%),
-    hsl(205, 59%, 34%)
-    */
-    /*Original from the website
-    hsl(100 100% 60%),
-    hsl(200 100% 60%),
-    hsl(100 100% 60%)
-    */
     circle,
-    rgba(0,164,255,1) 0%,
-    rgba(0,68,149,1) 45%,
-    rgba(4,12,38,1) 100%
+    rgba(147,112,219,1) 0%,
+    rgba(72,61,139,1) 45%,
+    rgba(25,25,112,1) 100%
   ) fixed;
   background-size: 100vw auto;
   background-position: center;
@@ -98,25 +80,16 @@ div.container {
 .container_background {
   /* background for the 2nd layer */
   background: radial-gradient(
-    /*
-    hsl(205, 59%, 34%),
-    hsl(200 100% 60%)
-    */
     circle,
-    rgba(0,164,255,1) 0%,
-    rgba(0,68,149,1) 45%,
-    rgba(4,12,38,1) 100%
+    rgba(147,112,219,1) 0%,
+    rgba(72,61,139,1) 45%,
+    rgba(25,25,112,1) 100%
   ) fixed;
   background: conic-gradient(
-    /*
-    hsl(205, 59%, 34%),
-    hsl(200 100% 60%),
-    hsl(205, 59%, 34%)
-    */
     circle,
-    rgba(0,164,255,1) 0%,
-    rgba(0,68,149,1) 45%,
-    rgba(4,12,38,1) 100%
+    rgba(147,112,219,1) 0%,
+    rgba(72,61,139,1) 45%,
+    rgba(25,25,112,1) 100%
   ) fixed;
   background-size:100vw auto;
   background-position: center;

@@ -38,8 +38,8 @@ h2:after{
   padding-bottom: 1em;
   width: 75%;
   margin: auto;
-  border-bottom: 1px solid #637891;
-  color: #3b536f;
+  border-bottom: 1px solid #866391;
+  color: #633b6f;
 }
 
 .job h3 {
@@ -59,7 +59,7 @@ ul {
 }
 
 .link-website{
-  color: #6aa0cd;
+  color: #7421b0;
 }
 
 /* Navigation Bar at the bottom of contact page*/
@@ -83,7 +83,7 @@ ul {
 
 .navlist, .active {
   display: inline-block;
-  color: #093160;
+  color: #2E1A47;
   text-align: center;
   padding:25px 50px;
   text-decoration: none;
@@ -93,11 +93,11 @@ ul {
 }
 
 .navlist a:hover {
-  background-color: #72b8f4;
+  background-color: #B19CD9;
 }
 
 .active {
-  background-color: #b7dbfc;
+  background-color: #c8b5ee;
 }
 
 .dropdown {
@@ -119,7 +119,7 @@ ul {
 
 .dropbtn {
   display: inline-block;
-  color: #093160;
+  color: #2E1A47;
   text-align: center;
   padding: 25px 50px;
   text-decoration: none;
@@ -130,7 +130,7 @@ ul {
 }
 
 .dropdown-content a {
-  color: #093160;
+  color: #391a47;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -141,7 +141,7 @@ ul {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #B19CD9;
 }
 
 .dropdown:hover .dropdown-content {

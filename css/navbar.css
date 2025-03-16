@@ -28,7 +28,7 @@ li {
 
 li a {
   display: inline-block;
-  color: #093160;
+  color: #3c0960;
   text-align: center;
   padding:25px 50px;
   text-decoration: none;
@@ -38,9 +38,9 @@ li a {
 }
 
 li a:hover,.dropdown:hover .dropbtn  {
-  background-color: #72b8f4;
+  background-color: #c8b5ee;
 }
 
 .active {
-  background-color: #b7dbfc;
+  background-color: #cac2d9;
 }
