@@ -1,8 +1,8 @@
 section {
   text-align: center;
   min-height: 90px;
-  margin-top:150px; /* controls the block size above each section*/
-  height: 200px; /* defines how much the content can be scrolled*/
+  margin-top: 80px;  /* Reduced from 150px to create less space between sections */
+  height: 320px;
 }
 
 section h2 {
@@ -70,4 +70,18 @@ a:hover {
 
 .active {
   background-color: #b7dbfc;
+}
+
+.scholar {
+  color: #093160;
+  text-decoration: none;
+}
+
+.scholar:hover {
+  text-decoration: underline;
+}
+
+/* Add specific styling for the first section if needed */
+.content-contact {
+  margin-top: 100px;  /* Slightly larger margin for the first section */
 }

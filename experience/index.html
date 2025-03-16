@@ -28,14 +28,116 @@
     <section class="navbar">
       <div class="container">
         <a class="navlist" href="../index.html">About Me</a>
-        <a class="active" href="../experience/index.html">Experience</a>
+        <div class="dropdown">
+          <a class="active dropbtn" href="../experience/index.html">Experience</a>
+          <div class="dropdown-content">
+            <a href="#work-experience">Work Experience</a>
+            <a href="#education">Education</a>
+          </div>
+        </div>
         <a class="navlist" href="../project/index.html">Projects and Skills</a>
         <a class="navlist" href="../contact/index.html">Contact</a>
       </div>
     </section>
 
+  <!-- Work Experience Section-->
+  <section class="content-work-experience" id="work-experience">
+    <div class="container">
+      <div class="row">
+        <h2 class="section-work">Work Experience</h2>
+
+        <p>&nbsp;</p>
+
+        <div class="job">
+          <h3 class="job-title">
+            Machine Learning Scientist</h3><span style="position:absolute; right:0em;
+            font-style:italic;font-family: 'Mulish', sans-serif;">2022 - Present</span>
+          <span style="font-size:18px;font-weight:bold;font-family: 'Mulish', sans-serif;">Expedia Group Inc. </span>
+          <br><br>
+          <ul>
+            <li><strong>Developed and improved deep learning models to predict elasticity of the high-level market demand to achieve +$237.5M net booking value 
+              uplift from model tuning period in Q4 2023 on Expedia packages/trips website
+              Received straight two exceeds expectations from yearly performance review.
+            </strong></li>
+            <br>
+            <li>Developed machine learning model pipeline at hotel level to allocate Expedia spendings for better conversion 
+              and higher KPI metrics, including transactions, gross profit, gross booking value.
+            </li>
+            <br>
+            <li>Generated 2.1% gross booking value uplift quarterly and 5.5 billion dollars revenue yearly via the newly-developed machine learning gross 
+              profit model with TensorFlow Lattice and LightGBM tree-based model.
+            </li>
+            <br>
+            <li>
+              Developed and utilized optimization package for decision making at scale to optimize pricing performance.
+              </li>
+              <br>
+            <li>
+              Created an automated data / training pipeline in collaboration with the ML engineers team to provide real-time updates of model.
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="job">
+          <h3 class="job-title">
+            Data Scientist Intern</h3><span style="position:absolute; right:0em;
+            font-style:italic;font-family: 'Mulish', sans-serif;">2021-09 - 2021-11</span>
+          <span style="font-size:18px;font-weight:bold;font-family: 'Mulish', sans-serif;">Applied Materials </span>
+          <br><br>
+          <ul>
+            <li><strong>Built machine learning and deep learning models to predict the semiconductor production 
+              process behaviors, including wafer temperatures, power outputs, etc., that help automate the production process.</strong></li>
+            <br>
+            <li>Adapted <a class="link-website", href="https://arxiv.org/pdf/1803.01271.pdf?ref=https://githubhelp.com">temporal 
+              convolutional network (TCN)</a> and <a class="link-website",href="https://arxiv.org/pdf/1901.10738.pdf">unsupervised learning</a> 
+                models to time series to forecast the process parameters, 
+              significantly increased the average prediction accuracy.</li>
+            <br>
+            <li><strong>Developed machine learning models on both the real-time and simulation data with PyTorch and SciKit Learn libraries.</strong></li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+
+        <br>
+
+        <div class="job">
+          <h3 class="job-title">
+            Ph.D. Graduate Student</h3><span style="position:absolute; right:0em;
+            font-style:italic;font-family: 'Mulish', sans-serif;">2017 -  2022</span>
+          <span style="font-size:18px;font-weight:bold;font-family: 'Mulish', sans-serif;">the University of Michigan </span>
+          <br><br>
+          <ul>
+            <li><strong>Published 10 journal articles</strong> during 4 years of Ph.D. career</li>
+            <br>
+            <li>Applied mathematical modeling skills and algorithms to multiple industry to facilitate solar cell and semiconductor designs</li>
+            <br>
+            <li>Served as a software developer of quantum software Q-Chem, working on computational methods by and collaborating with scientists 
+              for publishing 4 papers in material science and chemical physics.</li>
+            <br>
+
+            <li><strong>Developed 3 new features of <a class="link-website", href="https://manual.q-chem.com/5.4/topic_rasi.html">Restricted Active Space - Spin Flip (RAS2-SF)</a>
+                        method in <a class="link-website", href="https://www.q-chem.com/">Q-Chem</a> program in 3 years, with experiences using python, C++ and Fortran</strong></li>
+                        <ul class="soft-list">
+                          <li><strong> Charge transfer states</strong></li>
+                          <br>
+                          <li><strong> Relativistic effects: spin-orbit coupling </strong> </li>
+                          <br>
+                          <li><strong> Solvent effect: polarizable continuum model (PCM)</strong></li>
+                        </ul>
+            <br>
+            <li>Created 2 Python programs used in optimization and process automation.</li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
     <!-- Education Section-->
-    <section class="content-education-experience">
+    <section class="content-education-experience" id="education">
       <div class="container">
         <div class="row">
           <h2 class="section-education">Education</h2>
@@ -45,12 +147,12 @@
           <div class="job">
             <h3 class="job-title">
               Ph.D. Scientific Computing and Quantum Chemistry</h3><span style="position:absolute; right:0em;
-              font-style:italic;font-family: 'Mulish', sans-serif;">2017 - </span>
+              font-style:italic;font-family: 'Mulish', sans-serif;">2017 - 2022</span>
             <span style="font-size:18px;font-weight:bold;font-family: 'Mulish', sans-serif;">the University of Michigan </span>
             <br><br>
 
             <ul>
-              <li> <strong >Joint degree in Scientific Computing and Quantum Physical Chemistry </strong></li>
+              <li> <strong >Joint degree in Scientific Computing and Quantum Chemistry </strong></li>
               <br>
               <li> Applied mathematical and computational tools to solve complicated physics and chemistry problems</li>
               <br>
@@ -132,71 +234,6 @@
           </div>
       </div>
     </div>
-  </section>
-
-  <!-- Work Experience Section-->
-  <section class="content-work-experience">
-    <div class="container">
-      <div class="row">
-        <h2 class="section-work">Work Experience</h2>
-
-        <p>&nbsp;</p>
-
-        <div class="job">
-          <h3 class="job-title">
-            Data Scientist Intern</h3><span style="position:absolute; right:0em;
-            font-style:italic;font-family: 'Mulish', sans-serif;"> </span>
-          <span style="font-size:18px;font-weight:bold;font-family: 'Mulish', sans-serif;">Applied Materials </span>
-          <br><br>
-          <ul>
-            <li><strong>Built machine learning and deep learning models to predict the semiconductor production 
-              process behaviors, including wafer temperatures, power outputs, etc., that help automate the production process.</strong></li>
-            <br>
-            <li>Adapted <a class="link-website", href="https://arxiv.org/pdf/1803.01271.pdf?ref=https://githubhelp.com">temporal 
-              convolutional network (TCN)</a> and <a class="link-website",href="https://arxiv.org/pdf/1901.10738.pdf">unsupervised learning</a> 
-                models to time series to forecast the process parameters, 
-              significantly increased the average prediction accuracy.</li>
-            <br>
-            <li><strong>Developed machine learning models on both the real-time and simulation data with PyTorch and SciKit Learn libraries.</strong></li>
-          </ul>
-          <p>&nbsp;</p>
-        </div>
-
-        <br>
-
-        <div class="job">
-          <h3 class="job-title">
-            Ph.D. Graduate Student</h3><span style="position:absolute; right:0em;
-            font-style:italic;font-family: 'Mulish', sans-serif;">2017 -  </span>
-          <span style="font-size:18px;font-weight:bold;font-family: 'Mulish', sans-serif;">the University of Michigan </span>
-          <br><br>
-          <ul>
-            <li><strong>Published 10 journal articles</strong> during 4 years of Ph.D. career</li>
-            <br>
-            <li>Applied mathematical modeling skills and algorithms to multiple industry to facilitate solar cell and semiconductor designs</li>
-            <br>
-            <li>Served as a software developer of quantum software Q-Chem, working on computational methods by and collaborating with scientists 
-              for publishing 4 papers in material science and chemical physics.</li>
-            <br>
-
-            <li><strong>Developed 3 new features of <a class="link-website", href="https://manual.q-chem.com/5.4/topic_rasi.html">Restricted Active Space - Spin Flip (RAS2-SF)</a>
-                        method in <a class="link-website", href="https://www.q-chem.com/">Q-Chem</a> program in 3 years, with experiences using python, C++ and Fortran</strong></li>
-                        <ul class="soft-list">
-                          <li><strong> Charge transfer states</strong></li>
-                          <br>
-                          <li><strong> Relativistic effects: spin-orbit coupling </strong> </li>
-                          <br>
-                          <li><strong> Solvent effect: polarizable continuum model (PCM)</strong></li>
-                        </ul>
-            <br>
-            <li>Created 2 Python programs used in optimization and process automation.</li>
-          </ul>
-          <p>&nbsp;</p>
-        </div>
-
-      </div>
-    </div>
-
   </section>
 
 
