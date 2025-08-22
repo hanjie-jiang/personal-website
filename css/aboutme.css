@@ -6,7 +6,7 @@ section {
 }
 
 section h2 {
-  color: #637891;
+  color: #400960;
   font-family: 'Mulish', sans-serif;
   font-size: 32px;
   line-height: 3em;
@@ -15,7 +15,7 @@ section h2 {
 h2:after{
   content:' ';
   display:block;
-  border:1px solid #637891;
+  border:1px solid #7f6391;
   border-radius:4px;
   -webkit-border-radius:2px;
   -moz-border-radius:4px;
@@ -30,7 +30,7 @@ h2:after{
 section p {
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
-  color: #637891;
+  color: #400960;
   max-width: 600px;
   min-width: 100px;
   text-align: justify;
@@ -46,9 +46,9 @@ section p {
 }
 
 .content-home .text-center {
-    color: #333333; /* Adjust text color for readability */
+    color: #400960; /* Purple color for consistency */
 }
 
 .content-home .section-title {
-    color: #000000; /* Adjust heading color */
+    color: #400960; /* Purple color for consistency */
 }

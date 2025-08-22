@@ -32,7 +32,7 @@ h2:after{
   width: 100%;
 }
 
-.tech-list, .soft-list, .project-list, .publication-item {
+.skills-list, .project-list, .publication-item {
   font-size: 18px;
   font-family: sans-serif;
   line-height: 1.6;
