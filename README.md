@@ -3,7 +3,7 @@ Check it out! <br>
 This website was coded with HTML and CSS script; <br>
 
 ### Update from 2025
-##### 2025-08/22 update
+##### 2025-08-22 update
 - updated the key skill section to reflect more recently acquired skills.
 - added in the hackathons section to reflect the journey.
 - added in the Awards & Recognition section to log all the awards obtained.
