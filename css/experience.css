@@ -5,7 +5,7 @@ section {
 }
 
 h2 {
-  color: #093160;
+  color: #400960;
   font-family: 'Mulish', sans-serif;
   font-size: 28px;
   line-height: 3em;
@@ -20,7 +20,7 @@ h2 {
 h2:after{
   content:' ';
   display:block;
-  border:1px solid #637891;
+  border:1px solid #7f6391;
   border-radius:4px;
   -webkit-border-radius:2px;
   -moz-border-radius:4px;
