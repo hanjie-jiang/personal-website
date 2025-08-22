@@ -32,7 +32,7 @@ h2:after{
   width: 100%;
 }
 
-.skills-list, .project-list, .publication-item {
+.skills-list, .awards-list, .project-list, .publication-item {
   font-size: 18px;
   font-family: sans-serif;
   line-height: 1.6;
@@ -45,7 +45,7 @@ h2:after{
   min-width: 150px;
 }
 
-.project-sublist {
+.project-sublist, .awards-sublist {
     line-height: 1.6;
 }
 .link-website{
