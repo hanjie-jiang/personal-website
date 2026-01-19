@@ -1,0 +1,118 @@
+baseURL = 'https://hanjie-jiang.github.io/personal-website/'
+languageCode = 'en-us'
+title = 'Hanjie Jiang'
+theme = 'PaperMod'
+
+# Enable emoji support
+enableEmoji = true
+
+# Configure permalinks
+[permalinks]
+  posts = '/posts/:slug/'
+
+# PaperMod theme configuration
+[params]
+  env = 'production'
+  description = 'Machine Learning Scientist - Product Pricing in ML Systems and Agentic AI at Expedia Group'
+  author = 'Hanjie Jiang'
+
+  # Theme appearance
+  defaultTheme = 'auto' # auto, light, dark
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+
+  # Home page configuration
+  [params.homeInfoParams]
+    Title = 'Hanjie Jiang'
+    Content = '''
+Machine Learning Scientist - Product Pricing at Expedia Group
+
+I enjoy solving problems in all fields using modeling approaches and coding languages. I am strongly motivated in researching and analyzing data, and I love learning about new things and exploring the data world.
+In my spare time, I am bridging the gap between SOTA research and engineering reality through deterministic cognitive pipelines and production-grade ML systems.
+
+**Expertise:** Pricing ML, Deep Learning, Optimization, Scientific Computing, GenAI, Agentic AI, LLM Systems
+    '''
+
+  # Profile mode (alternative to homeInfoParams)
+  [params.profileMode]
+    enabled = false
+
+  # Social links
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/hanjie-jiang'
+
+  [[params.socialIcons]]
+    name = 'google-scholar'
+    url = 'https://scholar.google.ca/citations?user=2j-H3VMAAAAJ&hl=en'
+
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:hanjiej@umich.edu'
+
+# Main menu configuration
+[[menu.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Experience'
+  url = '/experience/'
+  weight = 2
+
+[[menu.main]]
+  name = 'Projects'
+  url = '/projects/'
+  weight = 3
+
+[[menu.main]]
+  name = 'Awards'
+  url = '/awards/'
+  weight = 4
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 5
+
+[[menu.main]]
+  name = 'Publications'
+  url = '/publications/'
+  weight = 6
+
+[[menu.main]]
+  name = 'Tags'
+  url = '/tags/'
+  weight = 7
+
+[[menu.main]]
+  name = 'Archive'
+  url = '/archives/'
+  weight = 8
+
+# Taxonomies
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+# Output formats
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+# Markup configuration for code highlighting
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true  # Allow raw HTML in markdown files
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = 'monokai'
