@@ -1,6 +1,14 @@
 ## Hanjie's Personal website: https://hanjie-jiang.github.io/personal-website
 Check it out! <br>
-This website was coded with HTML and CSS script; <br>
+
+### Update from 2026
+##### 2026-01-19 update - Major Migration to Hugo
+- **Migrated from static HTML/CSS to Hugo static site generator** with PaperMod theme
+- Enables scalable blogging with Markdown-based content management
+- Added automatic features: tags, search, RSS feed, and archive pages
+- Converted existing portfolio pages to Hugo templates for easier maintenance
+- Added first blog post: "The Curator Agent: Bridging the Gap Between SOTA Research and Engineering Reality"
+- Maintains clean, professional design while supporting regular content publishing
 
 ### Update from 2025
 ##### 2025-08-22 update
